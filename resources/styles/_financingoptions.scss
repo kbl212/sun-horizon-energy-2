@@ -1,0 +1,48 @@
+#financingoptions-wrapper {
+    .container {
+        padding: 30px 75px 75px 30px;
+    }
+    h4 {
+        color: $main-green;
+    }
+    .financing-row {
+        vertical-align: top;
+    }
+    .financing-image {
+        width: 30%;
+        display: inline-block;
+        padding: 10px 50px 50px 50px;
+        text-align: center;
+        height: 100%;
+        vertical-align: top;
+    }
+    #spruce {
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    }
+    .financing-description {
+        width: 60%;
+        height: 100%;
+        display: inline-block;
+        padding-top: 10px;
+    }
+    p {
+        font-weight: bold;
+    }
+    
+    a {
+        color: $main-orange;
+        text-decoration: underline;
+    }
+    
+    a:visited {
+        color: $main-orange;
+    }
+    
+    #more-options {
+        font-weight: 400;
+        color: $main-green;
+        padding-right: 100px;
+        padding-left: 100px;
+        font-size: 18px;
+    }
+}

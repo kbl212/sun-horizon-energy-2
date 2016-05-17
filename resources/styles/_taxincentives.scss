@@ -1,0 +1,17 @@
+#taxincentives-wrapper {
+    color: lightslategray;
+    .container {
+        padding: 10px 75px 75px 75px;
+    }
+    h2, h3 {
+        color: #000;
+    }
+    a {
+        color: $main-orange;
+        font-size: 18px;
+    }
+    a:visited {
+        color: $main-orange;
+    }
+    
+}

@@ -1,0 +1,29 @@
+#itstherighttime-wrapper {
+    color: $main-green;
+    .container {
+        padding: 10px 75px 75px 75px;
+    }
+    #right-time-title {
+        font-style: italic;
+    }
+    #guarantee {
+        clear: both;
+        padding-top: 100px;
+        width: 100%;
+        text-align: center;
+        font-weight: 700;
+    }
+    .pull-left {
+        width: 40%;
+        padding-top:150px;
+    }
+    .pull-right {
+        width: 50%;
+        text-align: center;
+        font-size: 18px;
+        padding-top: 40px;
+    }
+    img {
+        height: 300px;
+    }
+}

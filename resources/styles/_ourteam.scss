@@ -1,0 +1,25 @@
+#ourteam-wrapper {
+    .container {
+        padding: 30px 75px 75px 75px;
+    }
+    .team-row {
+        margin-bottom: 50px;
+    }
+    .team-image {
+        width: 20%;
+        display: inline-block;
+        vertical-align: top;
+        padding-top: 15px;
+    }
+    .team-bio {
+        width: 60%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    h5 {
+        font-weight: bold;
+    }
+    p {
+        color: lightslategray;
+    }
+}

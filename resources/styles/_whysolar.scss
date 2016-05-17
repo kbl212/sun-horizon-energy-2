@@ -1,0 +1,33 @@
+#whysolar-wrapper {
+    .container {
+        padding-bottom: 10px;
+    }
+    img {
+        width: 99.9%;
+    }
+    .links-container {
+        width: 100%;
+        position: relative;
+    }
+    .links-section {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+    }
+    a {
+        display: block;
+        margin-bottom: 75px;
+    }
+    .btn {
+        font-size: 24px !important;
+    }
+    h2 {
+        color: $main-green;
+        padding-bottom: 20px;
+        border-bottom: 4px solid #000;
+        font-weight: 700;
+    }
+    img {
+        opacity: 0.5;
+    }
+}

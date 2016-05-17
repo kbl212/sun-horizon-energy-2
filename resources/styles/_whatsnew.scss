@@ -1,0 +1,64 @@
+#whatsnew-wrapper {
+    .container {
+        padding: 0 75px 50px 50px;
+    }
+    a {
+        color: $main-orange;
+    }
+    a:visited {
+        color: $main-orange;
+    }
+    h3 {
+        width: 50%;
+        border-bottom: 5px solid #000;
+        font-weight: bold;
+        color: gray;
+    }
+    h4 {
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+    .news-row {
+        margin-bottom: 50px;
+        height: 300px;
+        width: 100%;
+    }
+    .news-block-left, .news-block-right {
+        width: 440px;
+        height: 300px;
+        position: relative;
+    }
+    .news-block-left {
+        float:left;
+    }
+    .news-block-right {
+        float:right;
+    }
+    .calendar-one, .calendar-two {
+        display:block;
+        height: 40%;
+    }
+    .calendar-one {
+        position: absolute;
+        top: 0;
+    }
+    .calendar-two {
+        position: absolute;
+        bottom: 0;
+    }
+    .calendar-image {
+        float:left;
+        margin-left: 20px;
+        display: inline-block;
+        width: 75px;
+        height: 75px;
+    }
+    .calendar-paragraph {
+        float:right;
+        margin-right: 20px;
+        display: inline-block;
+        width: 50%;
+        word-wrap:break-word;
+        overflow: hidden;
+    }
+}
